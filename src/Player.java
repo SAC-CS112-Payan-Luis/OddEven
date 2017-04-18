@@ -19,6 +19,7 @@ public class Player {
 	}
 
 	// Setter method for the player's name.
+	// We usually try to avoid GUI from inside a utility class, Luis.
 	public void setName () { 
 
 		String name = (JOptionPane.showInputDialog("What is your name?" ));
