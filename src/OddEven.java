@@ -135,7 +135,7 @@ public class OddEven {
 	public static int countBadResults (boolean results[]) {
 
 		int badCounter = 0;
-
+// very expensive to track the win/lost this way
 		for (int i = 0; i < results.length; i++) 
 		{
 			if (results[i] == false) 
@@ -152,7 +152,7 @@ public class OddEven {
 	*/
 	public static int countGoodResults (boolean results[]) {
 
-		int goodCounter = 0;
+	// very expensive to track the win/lost this way	int goodCounter = 0;
 
 		for (int i = 0; i < results.length; i++) 
 		{
